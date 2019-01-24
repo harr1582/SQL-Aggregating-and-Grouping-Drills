@@ -1,0 +1,6 @@
+SELECT 
+	duration
+FROM 	
+	trips
+ORDER BY duration ASC
+LIMIT 1;

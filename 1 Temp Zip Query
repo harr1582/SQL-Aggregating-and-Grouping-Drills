@@ -1,0 +1,6 @@
+SELECT
+	zip,
+	MAX(MaxTemperatureF)
+FROM weather
+GROUP by zip
+LIMIT 1;
